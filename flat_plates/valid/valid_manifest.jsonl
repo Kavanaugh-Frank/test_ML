@@ -1,0 +1,250 @@
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/b5693c3a.jpg", "class-label": "MISSOURI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/d9e97196.jpg", "class-label": "MISSOURI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/08894729.jpg", "class-label": "MISSOURI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/4fcbd47a.jpg", "class-label": "MISSOURI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/3c27f557.jpg", "class-label": "MISSOURI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/34e9c19c.jpg", "class-label": "ALASKA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/b1abdc67.jpg", "class-label": "ALASKA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/035eadde.jpg", "class-label": "ALASKA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/7925b52c.jpg", "class-label": "ALASKA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/34e807e6.jpg", "class-label": "ALASKA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/8430e47b.jpg", "class-label": "NEW HAMPSHIRE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/bd52fc6c.jpg", "class-label": "NEW HAMPSHIRE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/8b554d1a.jpg", "class-label": "NEW HAMPSHIRE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/a2164635.jpg", "class-label": "NEW HAMPSHIRE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/2695e1a9.jpg", "class-label": "NEW HAMPSHIRE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/72ec11e0.jpg", "class-label": "ILLINOIS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/4fba0e23.jpg", "class-label": "ILLINOIS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/4a615cec.jpg", "class-label": "ILLINOIS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/ae9deea9.jpg", "class-label": "ILLINOIS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/03ccce49.jpg", "class-label": "ILLINOIS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/142521cc.jpg", "class-label": "VIRGINIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/a9738427.jpg", "class-label": "VIRGINIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/9f4dd127.jpg", "class-label": "VIRGINIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/3f32b0fd.jpg", "class-label": "VIRGINIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/937a4922.jpg", "class-label": "VIRGINIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/e2fa6b4e.jpg", "class-label": "WASHINGTON"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/11c686dd.jpg", "class-label": "WASHINGTON"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/ad85175f.jpg", "class-label": "WASHINGTON"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/45b397f7.jpg", "class-label": "WASHINGTON"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/26e93d0d.jpg", "class-label": "WASHINGTON"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/a74d2743.jpg", "class-label": "VERMONT"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/2ba56cd0.jpg", "class-label": "VERMONT"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/352ad04e.jpg", "class-label": "VERMONT"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/9bdc58e6.jpg", "class-label": "VERMONT"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/0460ceb0.jpg", "class-label": "VERMONT"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/daefc6ef.jpg", "class-label": "SOUTH DAKOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/c2292ec1.jpg", "class-label": "SOUTH DAKOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/ad3a19e4.jpg", "class-label": "SOUTH DAKOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/a52b29fd.jpg", "class-label": "SOUTH DAKOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/1ae2356c.jpg", "class-label": "SOUTH DAKOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/079c3509.jpg", "class-label": "GEORGIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/bb496331.jpg", "class-label": "GEORGIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/86ae469f.jpg", "class-label": "GEORGIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/4ab3c7be.jpg", "class-label": "GEORGIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/3cd02fa8.jpg", "class-label": "GEORGIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/283925ea.jpg", "class-label": "CONNECTICUT"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/a288fd81.jpg", "class-label": "CONNECTICUT"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/2a51f7ee.jpg", "class-label": "CONNECTICUT"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/b6a46456.jpg", "class-label": "CONNECTICUT"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/d20796be.jpg", "class-label": "CONNECTICUT"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/dd2f2384.jpg", "class-label": "ALABAMA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/3e6e8693.jpg", "class-label": "ALABAMA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/242829d4.jpg", "class-label": "ALABAMA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/2cf22741.jpg", "class-label": "ALABAMA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/d69b3e90.jpg", "class-label": "ALABAMA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/2af50474.jpg", "class-label": "OKLAHOMA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/cb2fa83c.jpg", "class-label": "OKLAHOMA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/36f98b9b.jpg", "class-label": "OKLAHOMA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/3230fbc4.jpg", "class-label": "OKLAHOMA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/d45e07f3.jpg", "class-label": "OKLAHOMA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/63132076.jpg", "class-label": "COLORADO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/82314541.jpg", "class-label": "COLORADO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/feff9ceb.jpg", "class-label": "COLORADO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/51297e89.jpg", "class-label": "COLORADO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/8fc63230.jpg", "class-label": "COLORADO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/55d48179.jpg", "class-label": "OHIO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/5c69a73f.jpg", "class-label": "OHIO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/f3170a3c.jpg", "class-label": "OHIO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/993b03fc.jpg", "class-label": "OHIO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/9de8e56a.jpg", "class-label": "OHIO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/0cb508b5.jpg", "class-label": "MAINE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/4d3fee73.jpg", "class-label": "MAINE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/b5031116.jpg", "class-label": "MAINE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/dc85c344.jpg", "class-label": "MAINE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/253ad262.jpg", "class-label": "MAINE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/44afe983.jpg", "class-label": "UTAH"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/f9cec640.jpg", "class-label": "UTAH"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/9551f42b.jpg", "class-label": "UTAH"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/ee3d662f.jpg", "class-label": "UTAH"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/56c8e383.jpg", "class-label": "UTAH"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/ef64cbe9.jpg", "class-label": "SOUTH CAROLINA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/53a19a6c.jpg", "class-label": "SOUTH CAROLINA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/6126b957.jpg", "class-label": "SOUTH CAROLINA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/aef871c3.jpg", "class-label": "SOUTH CAROLINA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/a23fa81d.jpg", "class-label": "SOUTH CAROLINA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/172df490.jpg", "class-label": "DELAWARE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/691ca47d.jpg", "class-label": "DELAWARE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/a73c8b30.jpg", "class-label": "DELAWARE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/6051097f.jpg", "class-label": "DELAWARE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/67113e3e.jpg", "class-label": "DELAWARE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/4d78d915.jpg", "class-label": "INDIANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/af7c4b97.jpg", "class-label": "INDIANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/548a21a9.jpg", "class-label": "INDIANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/be4c11fc.jpg", "class-label": "INDIANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/a32799f1.jpg", "class-label": "INDIANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/c952a673.jpg", "class-label": "ARKANSAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/5684d76a.jpg", "class-label": "ARKANSAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/e2a1bb20.jpg", "class-label": "ARKANSAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/8966fa2a.jpg", "class-label": "ARKANSAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/9ebca5b9.jpg", "class-label": "ARKANSAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/0a095a6a.jpg", "class-label": "IOWA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/ee088ce6.jpg", "class-label": "IOWA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/490914bd.jpg", "class-label": "IOWA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/7578a377.jpg", "class-label": "IOWA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/0eb23ff1.jpg", "class-label": "IOWA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/478a5fc4.jpg", "class-label": "NEW JERSEY"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/8da8e88f.jpg", "class-label": "NEW JERSEY"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/d076bd94.jpg", "class-label": "NEW JERSEY"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/ef7b9e55.jpg", "class-label": "NEW JERSEY"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/6ca3f47e.jpg", "class-label": "NEW JERSEY"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/27d5c4bc.jpg", "class-label": "WISCONSIN"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/135b9bc4.jpg", "class-label": "WISCONSIN"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/fdeec883.jpg", "class-label": "WISCONSIN"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/cce9c517.jpg", "class-label": "WISCONSIN"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/6244d547.jpg", "class-label": "WISCONSIN"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/2ad136d0.jpg", "class-label": "MICHIGAN"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/6a15e970.jpg", "class-label": "MICHIGAN"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/3a18482f.jpg", "class-label": "MICHIGAN"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/ea5454fd.jpg", "class-label": "MICHIGAN"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/33168adb.jpg", "class-label": "MICHIGAN"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/39be4ec9.jpg", "class-label": "ARIZONA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/1efcd7e8.jpg", "class-label": "ARIZONA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/ce056852.jpg", "class-label": "ARIZONA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/29810b5f.jpg", "class-label": "ARIZONA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/1699621d.jpg", "class-label": "ARIZONA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/4ec34370.jpg", "class-label": "MASSACHUSETTS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/97751f5f.jpg", "class-label": "MASSACHUSETTS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/da187002.jpg", "class-label": "MASSACHUSETTS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/1a775ad2.jpg", "class-label": "MASSACHUSETTS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/c7d7889b.jpg", "class-label": "MASSACHUSETTS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/74d11771.jpg", "class-label": "MONTANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/c19791dc.jpg", "class-label": "MONTANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/ccc4d224.jpg", "class-label": "MONTANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/df2d96f2.jpg", "class-label": "MONTANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/efccb843.jpg", "class-label": "MONTANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/b176878b.jpg", "class-label": "NEW YORK"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/dad35e10.jpg", "class-label": "NEW YORK"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/a8cda123.jpg", "class-label": "NEW YORK"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/2dfd332f.jpg", "class-label": "NEW YORK"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/01faf932.jpg", "class-label": "NEW YORK"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/aec8e646.jpg", "class-label": "WYOMING"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/f2bcdbeb.jpg", "class-label": "WYOMING"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/9ca4a790.jpg", "class-label": "WYOMING"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/69f8fa82.jpg", "class-label": "WYOMING"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/3b1e643e.jpg", "class-label": "WYOMING"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/aba800f5.jpg", "class-label": "MINNESOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/e1f749f1.jpg", "class-label": "MINNESOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/d392e581.jpg", "class-label": "MINNESOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/97329a97.jpg", "class-label": "MINNESOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/435f8882.jpg", "class-label": "MINNESOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/538bded0.jpg", "class-label": "WEST VIRGINIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/86a79321.jpg", "class-label": "WEST VIRGINIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/dfba2d6c.jpg", "class-label": "WEST VIRGINIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/e83c8781.jpg", "class-label": "WEST VIRGINIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/1b80142e.jpg", "class-label": "WEST VIRGINIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/0d2efc4d.jpg", "class-label": "NORTH DAKOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/e31d79a4.jpg", "class-label": "NORTH DAKOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/b108ac32.jpg", "class-label": "NORTH DAKOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/99c917fd.jpg", "class-label": "NORTH DAKOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/8c1cdbd1.jpg", "class-label": "NORTH DAKOTA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/543a0aa7.jpg", "class-label": "FLORIDA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/d04fe0ac.jpg", "class-label": "FLORIDA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/04ef511a.jpg", "class-label": "FLORIDA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/4bb7066a.jpg", "class-label": "FLORIDA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/83490497.jpg", "class-label": "FLORIDA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/cbb84ba4.jpg", "class-label": "KENTUCKY"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/90b4c346.jpg", "class-label": "KENTUCKY"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/8d66557a.jpg", "class-label": "KENTUCKY"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/167b27bf.jpg", "class-label": "KENTUCKY"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/1529d761.jpg", "class-label": "KENTUCKY"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/725c0a9e.jpg", "class-label": "LOUISIANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/37e7830e.jpg", "class-label": "LOUISIANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/4a8681b6.jpg", "class-label": "LOUISIANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/8f753a70.jpg", "class-label": "LOUISIANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/b7c9477a.jpg", "class-label": "LOUISIANA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/51515ed5.jpg", "class-label": "MARYLAND"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/04064618.jpg", "class-label": "MARYLAND"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/3b843c65.jpg", "class-label": "MARYLAND"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/c412c7d3.jpg", "class-label": "MARYLAND"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/707e602c.jpg", "class-label": "MARYLAND"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/a700f44c.jpg", "class-label": "TEXAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/8121af00.jpg", "class-label": "TEXAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/5ff0728d.jpg", "class-label": "TEXAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/0fbb283f.jpg", "class-label": "TEXAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/715960ef.jpg", "class-label": "TEXAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/d338be58.jpg", "class-label": "HAWAI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/6c158eb3.jpg", "class-label": "HAWAI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/acc03f3b.jpg", "class-label": "HAWAI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/7fa93d5c.jpg", "class-label": "HAWAI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/defb4a65.jpg", "class-label": "HAWAI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/461090a7.jpg", "class-label": "RHODE ISLAND"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/ff856b2a.jpg", "class-label": "RHODE ISLAND"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/1b0b4ec8.jpg", "class-label": "RHODE ISLAND"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/d0bef17f.jpg", "class-label": "RHODE ISLAND"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/4e364380.jpg", "class-label": "RHODE ISLAND"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/fd8e4154.jpg", "class-label": "KANSAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/971410ab.jpg", "class-label": "KANSAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/90951f83.jpg", "class-label": "KANSAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/25e92adc.jpg", "class-label": "KANSAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/dd96f9be.jpg", "class-label": "KANSAS"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/834b70b7.jpg", "class-label": "PENNSYLVANIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/2acb4128.jpg", "class-label": "PENNSYLVANIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/32a86007.jpg", "class-label": "PENNSYLVANIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/4798dcec.jpg", "class-label": "PENNSYLVANIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/727ab635.jpg", "class-label": "PENNSYLVANIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/754675a7.jpg", "class-label": "NORTH CAROLINA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/dafa2f57.jpg", "class-label": "NORTH CAROLINA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/e462065d.jpg", "class-label": "NORTH CAROLINA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/0367a825.jpg", "class-label": "NORTH CAROLINA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/60b70c14.jpg", "class-label": "NORTH CAROLINA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/a6bdd7ae.jpg", "class-label": "NEBRASKA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/918e7ac7.jpg", "class-label": "NEBRASKA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/6f410325.jpg", "class-label": "NEBRASKA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/3c89f80d.jpg", "class-label": "NEBRASKA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/ceffb0fc.jpg", "class-label": "NEBRASKA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/b83669a7.jpg", "class-label": "TENNESSEE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/d6cad96e.jpg", "class-label": "TENNESSEE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/445d650c.jpg", "class-label": "TENNESSEE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/2045061f.jpg", "class-label": "TENNESSEE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/d76eaa67.jpg", "class-label": "TENNESSEE"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/57744742.jpg", "class-label": "IDAHO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/be823e07.jpg", "class-label": "IDAHO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/437eac68.jpg", "class-label": "IDAHO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/6f1df130.jpg", "class-label": "IDAHO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/753dcb10.jpg", "class-label": "IDAHO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/61a3df5a.jpg", "class-label": "OREGON"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/b92914cb.jpg", "class-label": "OREGON"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/3593247e.jpg", "class-label": "OREGON"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/68ebab7b.jpg", "class-label": "OREGON"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/9afbc8cb.jpg", "class-label": "OREGON"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/0bf15922.jpg", "class-label": "NEVADA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/b0f9862a.jpg", "class-label": "NEVADA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/a561a810.jpg", "class-label": "NEVADA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/c78fd0f1.jpg", "class-label": "NEVADA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/77f890cb.jpg", "class-label": "NEVADA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/3b9667c3.jpg", "class-label": "CALIFORNIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/f555863c.jpg", "class-label": "CALIFORNIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/aa7cb9b0.jpg", "class-label": "CALIFORNIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/1aa98a36.jpg", "class-label": "CALIFORNIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/edff3cf6.jpg", "class-label": "CALIFORNIA"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/a2fe8402.jpg", "class-label": "NEW MEXICO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/2a62d685.jpg", "class-label": "NEW MEXICO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/7b94a895.jpg", "class-label": "NEW MEXICO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/24407026.jpg", "class-label": "NEW MEXICO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/323c2ae0.jpg", "class-label": "NEW MEXICO"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/2a405e66.jpg", "class-label": "MISSIPPI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/751b5b9e.jpg", "class-label": "MISSIPPI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/f0fa73fa.jpg", "class-label": "MISSIPPI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/155e8e53.jpg", "class-label": "MISSIPPI"}
+{"source-ref": "/Users/kavanaughfrank/Desktop/test_ML/flat_plates/valid/0b77520a.jpg", "class-label": "MISSIPPI"}
