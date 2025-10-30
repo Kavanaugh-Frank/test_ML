@@ -47,7 +47,7 @@ def predict_image(model, image_path, transform, class_names, device):
 def main():
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     
-    MODEL_PATH = "best_resnet18_license_plates.pth"
+    MODEL_PATH = "final_resnet18_license_plates_10_30_2025.pth"
     NUM_CLASSES = 51
     
     CLASS_NAMES = [
@@ -70,7 +70,7 @@ def main():
     
     model = load_model(MODEL_PATH, NUM_CLASSES, device)
     
-    folder_path = "./manual_test_images"  # Change this to your folder path
+    folder_path = "./manual_test_images"
     if not os.path.exists(folder_path):
         print(f"Folder {folder_path} not found!")
         return
