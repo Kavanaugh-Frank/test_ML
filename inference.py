@@ -1,94 +1,93 @@
 import torch
-from torchvision import transforms
-from PIL import Image
 import torch.nn as nn
-from torchvision import models
+from torchvision import models, transforms
+from PIL import Image
+import os
 
-class LicensePlateResNet18(nn.Module):
-    def __init__(self, num_classes):
-        super(LicensePlateResNet18, self).__init__()
-        # directly use resnet18, no 'self.model'
-        self.convnet = models.resnet18(weights=None)
-        in_features = self.convnet.fc.in_features
-        self.convnet.fc = nn.Linear(in_features, num_classes)
-
-    def forward(self, x):
-        return self.convnet(x)
-
-def predict_image(model, image_path, class_names=None, device=None):
-    """
-    Runs inference on a single image using a trained PyTorch model.
-    
-    Args:
-        model (torch.nn.Module): The trained model.
-        image_path (str): Path to the input image.
-        class_names (list[str], optional): List of class names for human-readable output.
-        device (torch.device, optional): 'cuda' or 'cpu'. Auto-detects if not provided.
-    
-    Returns:
-        dict: {
-            'predicted_index': int,
-            'predicted_class': str (if class_names provided),
-            'probabilities': list[float]
-        }
-    """
-    if device is None:
-        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-    # Put model in eval mode and move to device
+def load_model(model_path, num_classes, device):
+    model = models.resnet18(weights=None)  
+    in_features = model.fc.in_features
+    model.fc = nn.Sequential(
+        nn.Dropout(0.5),
+        nn.Linear(in_features, 512),
+        nn.ReLU(inplace=True),
+        nn.Dropout(0.3),
+        nn.Linear(512, num_classes)
+    )
+    model.load_state_dict(torch.load(model_path, map_location=device, weights_only=True))
+    model = model.to(device)
     model.eval()
-    model.to(device)
+    return model
 
-    # Define transforms (match training)
+def predict_image(model, image_path, transform, class_names, device):
+    image = Image.open(image_path).convert('RGB')
+    image = transform(image).unsqueeze(0)
+    image = image.to(device)
+    
+    with torch.no_grad():
+        outputs = model(image)
+        probabilities = torch.nn.functional.softmax(outputs, dim=1)
+        top_probs, top_indices = torch.topk(probabilities, 5, dim=1)
+    
+    top_probs = top_probs.cpu().numpy()[0]
+    top_indices = top_indices.cpu().numpy()[0]
+    
+    # Get class names and probabilities
+    top_predictions = []
+    for i, (idx, prob) in enumerate(zip(top_indices, top_probs)):
+        top_predictions.append({
+            'rank': i + 1,
+            'class': class_names[idx],
+            'probability': prob,
+            'percentage': prob * 100
+        })
+    
+    return top_predictions
+
+def main():
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    
+    MODEL_PATH = "best_resnet18_license_plates.pth"
+    NUM_CLASSES = 51
+    
+    CLASS_NAMES = [
+        "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", 
+        "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD",
+        "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ",
+        "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC",
+        "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"
+    ]
+    
     transform = transforms.Compose([
         transforms.Resize((224, 224)),
         transforms.ToTensor(),
-        transforms.Normalize([0.485, 0.456, 0.406],
-                             [0.229, 0.224, 0.225])
+        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
     ])
+    
+    if not os.path.exists(MODEL_PATH):
+        print(f"Model file {MODEL_PATH} not found!")
+        return
+    
+    model = load_model(MODEL_PATH, NUM_CLASSES, device)
+    
+    folder_path = "./manual_test_images"  # Change this to your folder path
+    if not os.path.exists(folder_path):
+        print(f"Folder {folder_path} not found!")
+        return
+    
+    image_extensions = ['.jpg', '.jpeg', '.png', '.bmp', '.webp']
+    image_files = [f for f in os.listdir(folder_path) 
+                  if os.path.splitext(f)[1].lower() in image_extensions]
+    
+    print(f"Processing {len(image_files)} images:")
+    
+    for image_file in image_files:
+        image_path = os.path.join(folder_path, image_file)
+        predictions = predict_image(model, image_path, transform, CLASS_NAMES, device)
+        print(image_file)
+        for prediction in predictions:
+            print(prediction.get("rank"), " -> ", prediction.get("class"), " ----- ", round(prediction.get("percentage"), 2))
+        print()
 
-    # Load and preprocess image
-    image = Image.open(image_path).convert("RGB")
-    input_tensor = transform(image).unsqueeze(0).to(device)
-
-    # Inference
-    with torch.no_grad():
-        outputs = model(input_tensor)
-        probabilities = torch.nn.functional.softmax(outputs, dim=1)[0]
-
-    # Get top 5 predictions
-    top5_prob, top5_idx = torch.topk(probabilities, 5)
-    top5_prob = top5_prob.cpu().numpy()
-    top5_idx = top5_idx.cpu().numpy()
-
-    # Prepare results
-    result = {
-        "predicted_index": top5_idx[0],
-        "probabilities": probabilities.cpu().numpy().tolist(),
-        "top5": [
-            {
-                "class": class_names[i] if class_names else str(i),
-                "probability": round(float(p) * 100, 2)
-            }
-            for i, p in zip(top5_idx, top5_prob)
-        ]
-    }
-
-    if class_names:
-        result["predicted_class"] = class_names[result["predicted_index"]]
-
-    return result
-
-# Number of output classes (adjust this to your dataset)
-NUM_CLASSES = 51  # Example: 50 U.S. states
-
-# Create model and load trained weights
-model = models.resnet18(weights=None)
-in_features = model.fc.in_features
-model.fc = nn.Linear(in_features, 51)
-model.load_state_dict(torch.load('resnet18_us_license_plates.pth', map_location='cpu'))
-model.eval()
-
-result = predict_image(model, "3.jpg", class_names=['ALABAMA', 'ALASKA', 'ARIZONA', 'ARKANSAS', 'CALIFORNIA', 'COLORADO', 'CONNECTICUT', 'DELAWARE', 'FLORIDA', 'GEORGIA', 'HAWAI', 'IDAHO', 'ILLINOIS', 'INDIANA', 'IOWA', 'KANSAS', 'KENTUCKY', 'LOUISIANA', 'MAINE', 'MARYLAND', 'MASSACHUSETTS', 'MICHIGAN', 'MINNESOTA', 'MISSIPPI', 'MISSOURI', 'MONTANA', 'NEBRASKA', 'NEVADA', 'NEW HAMPSHIRE', 'NEW JERSEY', 'NEW MEXICO', 'NEW YORK', 'NORTH CAROLINA', 'NORTH DAKOTA', 'OHIO', 'OKLAHOMA', 'OREGON', 'PENNSYLVANIA', 'RHODE ISLAND', 'SOUTH CAROLINA', 'SOUTH DAKOTA', 'TENNESSEE', 'TEXAS', 'UTAH', 'VERMONT', 'VIRGINIA', 'WASHINGTON', 'WEST VIRGINIA', 'WISCONSIN', 'WYOMING'])
-for classification in result["top5"]:
-    print(classification["class"], classification["probability"])
+if __name__ == "__main__":
+    main()
