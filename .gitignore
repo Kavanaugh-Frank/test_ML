@@ -3,3 +3,5 @@ __pycache__/
 test_ML/
 
 env/
+
+.DS_ignore
