@@ -3,6 +3,7 @@ import torch.nn as nn
 from torchvision import models, transforms
 from PIL import Image
 import os
+import sys
 
 def load_model(model_path, num_classes, device):
     model = models.resnet18(weights=None)  
@@ -47,8 +48,11 @@ def predict_image(model, image_path, transform, class_names, device):
 def main():
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     
-    MODEL_PATH = "final_resnet18_license_plates_10_30_2025.pth"
-    NUM_CLASSES = 51
+    MODEL_PATH = "final_resnet18_license_plates.pth"
+    NUM_CLASSES = 50
+    if(len(sys.argv) == 3):
+        MODEL_PATH = sys.argv[1]
+        NUM_CLASSES = int(sys.argv[2])
     
     CLASS_NAMES = [
         "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", 

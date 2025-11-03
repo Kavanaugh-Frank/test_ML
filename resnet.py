@@ -36,9 +36,17 @@ class ImageFolderFromManifest(Dataset):
         label_name = self.data[idx]["class-label"]
         label = self.class_to_idx[label_name]
 
-        # this will have to change when the images are in S3
-        img_path = self.img_dir / img_name
-        image = Image.open(img_path).convert("RGB")
+        # Handle both absolute paths and relative paths
+        img_path = Path(img_name)
+        if not img_path.exists():
+            # If absolute path doesn't exist, try relative to img_dir
+            img_path = self.img_dir / img_path.name
+        
+        if not img_path.exists():
+            raise FileNotFoundError(f"Image not found: {img_path}")
+
+        # FIX: Load the image first!
+        image = Image.open(img_path).convert("RGB")  # This line was missing!
 
         if self.transform:
             image = self.transform(image)
@@ -74,8 +82,9 @@ def main():
     data_transforms = {
         'train': transforms.Compose([
             transforms.Resize((224, 224)),
-            transforms.RandomHorizontalFlip(),
+            transforms.RandomHorizontalFlip(p=.3),
             transforms.RandomRotation(10),
+            transforms.GaussianBlur(kernel_size=(15, 15), sigma=(2.0, 5.0)),
             transforms.ColorJitter(brightness=0.3, contrast=0.3, saturation=0.3, hue=0.1),
             transforms.RandomAffine(degrees=0, translate=(0.1, 0.1)),
             transforms.ToTensor(),
